@@ -12,7 +12,6 @@ shopt -s autocd
 
 alias vi=nvim
 alias ls='ls --color -a'
-alias hs='history | grep'
 alias pac='sudo pacman -S'
 alias pacr='sudo pacman -Rns'
 alias pacr!='sudo pacman -Rscun'
