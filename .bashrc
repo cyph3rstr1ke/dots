@@ -23,7 +23,5 @@ alias paci='pacman -Si'
 alias mntsd='sudo mount /dev/mmcblk0p1 /media/sd'
 alias umntsd='sudo umount /dev/mmcblk0p1'
 
-export HISTSIZE=100
-export HISTFILESIZE=100
 export VISUAL=nvim
 export EDITOR="$VISUAL"
