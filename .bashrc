@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # alias ls='ls --color=auto'
-# PS1='[\u@\h \W]\$ '
+# PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
 
 shopt -s autocd
 
